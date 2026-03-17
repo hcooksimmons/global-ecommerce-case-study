@@ -3,12 +3,16 @@ Case study using SQL with Google BigQuery and Tableau to explore success of diff
 
 
 # The Business Case
+ECommerce companies such as the fictional TheLook eCommerce clothing website must make decisions about what marketing channels (including search ads, email campaigns, and social media) they should use to attract customers that will bring the most revenue over time. In this scenario, I decided to help TheLook determine which countries are the key markets, and whether TheLook needs to focus on different marketing channels for different countries. After my analysis, I am able to make recommendations to TheLook on where to direct its marketing budget to channels in country locations that will maximize revenue, customer retention, and six-month customer lifetime value (LTV).
+
 
 ## Major Questions
+Which country markets bring the most valuable and loyal customers?
+Which marketing channels bring the most valuable and loyal customers?
+Are marketing channels working differently in different country markets to attract customers?
 
+For customer value by country and/or marketing channel, we will want to look not only at the total revenue brought by customers in each country/marketing channel, but also at how customers are generating value over time, as measured by the average six-month customer lifetime value (LTV) for each country/marketing channel. We will also look at the loyalty of customers through the retention rate as what percentage of customers per country/marketing channel are making repeat purchases.
 
-
-## Major Solutions
 
 ### Tools
 
