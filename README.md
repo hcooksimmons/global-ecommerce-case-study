@@ -18,7 +18,7 @@ For customer value by country and/or marketing channel, we will want to look not
 
 
 ### Needed Data
-[The Look eCommerce data] (https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce?hl=es&project=the-look-data) contains multiple tables about products, orders, distribution, and customers, only some of which were needed for this project. 
+[The Look eCommerce data](https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce?hl=es&project=the-look-data) contains multiple tables about products, orders, distribution, and customers, only some of which were needed for this project. 
 
 | Tables Used  | Fields Used | Description |
 | ------------- | ------------- | ------------ |
@@ -238,10 +238,13 @@ ORDER BY
 
   
 # Data Visualization and Insights in Tableau
-I built a [dashboard] (https://public.tableau.com/app/profile/haley.cook.simmons/viz/GlobalMarketingInsightsfromTheLookEcommerceData/GlobalMarketingDashboard_1/) on Tableau Public
-Average 6-Month LTV vs. Retention Rate
-Revenue by Marketing Channel
+I built a [dashboard](https://public.tableau.com/app/profile/haley.cook.simmons/viz/GlobalMarketingInsightsfromTheLookEcommerceData/GlobalMarketingDashboard_1) on Tableau Public. These were the most helpful tables to the final analysis.
 
+### Average 6-Month LTV vs. Retention Rate
+A scatterplot of the average 6 month LTV of a country + marketing segment against the segment's retention rate. Dots on the scatterplot were colored for marketing segment, and sized for their total revenue. 
+
+### Revenue by Marketing Channel
+A tiled series of maps divided by marketing channel showing the revenue in each country brought in by each marketing channel (Search, Organic, Facebook, Email, Display)
 
 
 # Conclusion
