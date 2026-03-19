@@ -145,7 +145,7 @@ FROM `bigquery-public-data.thelook_ecommerce.users`
 
 **Step 2**
 
-I got information about users' orders, order dates, and order revenue from the Order_itmes table, and I made sure to filter it by completed orders only so that our definition of customer is a user who has had at least one completed order, and our customer retention later on will only look at completed additional orders and not count those that were cancelled.
+I got information about users' orders, order dates, and order revenue from the Order_items table, and I made sure to filter it by completed orders only so that our definition of customer is a user who has had at least one completed order, and our customer retention later on will only look at completed additional orders and not count those that were cancelled.
 ```SQL
 orders AS (
 SELECT
@@ -165,7 +165,7 @@ GROUP BY
 
 **Step 3**
 
-I found the date of each customer's first completed purchase out of the previous step's order information, which I used later on in the 6 month LTV calculaltion.
+I found the date of each customer's first completed purchase out of the previous step's order information, which I used later on in the 6 month LTV calculation.
 ```SQL
 first_purchase AS (
 SELECT
@@ -238,11 +238,16 @@ ORDER BY
 
   
 # Data Visualization and Insights in Tableau
+I built a [dashboard] (https://public.tableau.com/app/profile/haley.cook.simmons/viz/GlobalMarketingInsightsfromTheLookEcommerceData/GlobalMarketingDashboard_1/) on Tableau Public
+Average 6-Month LTV vs. Retention Rate
+Revenue by Marketing Channel
 
 
 
 # Conclusion
 
 ## Summary of Main Insights
+
+Search is the top marketing channel Out of the top ten customer segments for revenue by country and marketing channel
 
 ## Recommendations for Future Research
